@@ -10,5 +10,7 @@ To reproduce: Open the solution, debug, navigate to /swagger, observe 2 endpoint
 
 At the command line:
 dotnet publish
+
 dotnet bin/Release/net9.0/publish/WebApplication4.dll
+
 Browse to http://localhost:5000/swagger/ - observe only one endpoint
