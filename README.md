@@ -9,6 +9,8 @@ When the application is published, only the controller endpoint is on the Swagge
 To reproduce: Open the solution, debug, navigate to /swagger, observe 2 endpoints.
 
 At the command line:
+```
     dotnet publish
     dotnet bin/Release/net9.0/publish/WebApplication4.dll
     Browse to http://localhost:5000/swagger/ - observe only one endpoint
+```
